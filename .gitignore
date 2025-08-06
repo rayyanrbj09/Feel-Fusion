@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Model and HuggingFace cache
+*.ckpt
+*.pt
+*.bin
+*.h5
+*.pb
+saved_model/
+.cache/
+.cache/*
+
+# HuggingFace 
+huggingface/
+~/.cache/
+~/.huggingface/
+
+# KeyBERT data and cache (uses SentenceTransformers, which stores caches here)
+sentence_transformers/
+~/.cache/torch/
+~/.cache/huggingface/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite3
+db.sqlite3
+
+# Environment files
+.env
+.env.*
+
+# Test coverage reports
+htmlcov/
+.tox/
+coverage.xml
+.nosetests.xml
+.cache
+.pytest_cache/
+
+# PyInstaller
+dist/
+build/
+*.spec
